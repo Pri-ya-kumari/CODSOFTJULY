@@ -1,0 +1,483 @@
+.nav-bar{
+    border: 1px solid white;
+    margin-top: 19px;
+    position: relative;
+
+}
+.nav_bar{
+    margin-left: 790px;
+    margin-top: -45px;
+    font-size: 24px;
+    display: inline-flex;
+}
+.nav_bar a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: palevioletred;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo{
+    margin-top: 19px;
+    margin-left: 59px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+.name{
+    margin-top: -35px;
+    margin-left: 155px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: palevioletred;
+}
+.name::after{
+    content: "";
+    position: absolute;
+    background-color: palevioletred;
+    height: 3px;
+    width: 0;
+    left: 152px;
+    bottom: 13px;
+    transition: .7s;
+}
+.name:hover:after{
+    width: 12%;
+}
+.menubar{
+    margin-top: -40px;
+    margin-left: 1250px;
+    width: 40px;
+    height: 25px;
+    background-color: palevioletred;
+}
+.menubar:hover{
+    transform: translate(-.2rem);
+    translate: .2s ease;
+    background-color: blueviolet;
+}
+.block1{
+    margin-top: 20px;
+    border: 1px solid white;
+    width: 1330px;
+    height: 500px;
+}
+.hd1{
+    border: 1px solid white;
+    width: 320px;
+    margin-left: 100px;
+    margin-top: 170px;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 45px;
+}
+.hd2{
+    border: 1px solid white;
+    width: 340px;
+    margin-left: 100px;
+    position: relative;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.img-one{
+    margin-top: -485px;
+    margin-left: 640px;
+    width: 690px;
+    height: 500px;
+    border-radius: 30px;
+}
+.btn-one{
+    margin-top: 19px;
+    margin-left: 100px;
+    border: 2px solid rgb(64, 83, 189);
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background-color:rgb(87, 112, 201);
+    font-size: 16px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.btn-one:hover{
+    transform: translateY(-.5rem);
+    translate: .5s ease;
+}
+.block2{
+    margin-top: 12px;
+    border: 1px solid white;
+    width: 1330px;
+    height: 350px;
+    margin-bottom: -1200px;
+    background-attachment: center;
+    background-image: url('image/slider_two.png');
+    background-size: 100% 100%;
+    animation: changeimage 15s alternate infinite;
+}
+@keyframes changeimage{
+    10%{
+        background-image: url('image/slider_two.png') ;
+    }
+    70%{
+        background-image: url('image/silder_one.png');
+    }
+}
+.block3{
+    margin-top: 1260px;
+    border: 1px solid white;
+    height: 620px;
+    width: 1330px;
+    background-color: rgb(247, 250, 250);
+}
+.phone1{
+    margin-top: 27px;
+    margin-left: 120px;
+    border: 1px solid rgb(247, 250, 250);
+    border-radius: 30px;
+    background-color: white;
+    width: 220px;
+    height: 390px;
+}
+.logo_again{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.img-five{
+    width: 270px;
+    height: 320px;
+    margin-top: -30px;
+    margin-left: 120px;
+    border-radius: 120px;
+}
+.contact_form{
+    position: relative;
+    margin-top: -80px;
+    margin-left: 15px;
+    border: 1px solid rgb(199, 222, 252);
+    border-radius: 30px;
+    width: 250px;
+    height: 240px;
+    background-color: rgb(199, 222, 252);
+}
+.hd7{
+    margin-top: 20px;
+    margin-left: 49px;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bolder;
+}
+.paragraph-three{
+    margin-top: -42px;
+    margin-left: 130px ;
+    font-size: 19px;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: lighter;
+}
+.input1{
+    background-color: rgb(199, 222, 252);
+    border: 1px solid rgb(199, 222, 252);
+    margin-left:20px ;
+    width: 180px;
+    height: 22px;
+    font-size: 20px;
+}
+.input2{
+    background-color: rgb(199, 222, 252);
+    border: 1px solid rgb(199, 222, 252);
+    margin-left:20px ;
+    margin-top: 14px;
+    width: 180px;
+    height: 22px;
+    font-size: 20px;
+}
+.line{
+    border: 1px solid lightslategray;
+    width: 210px;   
+}
+.line1{
+    margin-top: 1px;
+    border: 1px solid lightslategray;
+    width: 210px;  
+}
+.fp{
+    margin-top: 19px;
+    margin-left: 20px;
+
+}
+.line3{
+    margin-top: -16px;
+    border: 1px solid lightslategray;
+    width: 110px;
+    margin-left: 19px;  
+}
+.btn-two{
+    margin-top: -1px;
+    margin-left: 120px;
+    border: 2px solid rgb(64, 83, 189);
+    width: 120px;
+    height: 35px;
+    border-radius: 40px;
+    background-color:rgb(87, 112, 201);
+    font-size: 16px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.img-six{
+    margin-top: -290px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+.img-seven{
+    width: 220px;
+    border-radius: 120px;
+    margin-top: -220px;
+    margin-left: 300px;
+}
+.inside-part4{
+    margin-top: -310px;
+    margin-left: 680px ;
+    float: left;
+    border: 1px solid rgb(237, 247, 247);
+    width: 520px;
+    height: 400px;
+}
+.hd8{
+    margin-top: 12px;
+    margin-left: 20px;
+    padding-top: 12px;
+    border: 1px solid rgb(237, 247, 247);
+    width: 250px;
+    height: 100px;
+    font-size: 38px;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bolder;
+}
+.paragraph-four{
+    margin-top: -13px;
+    margin-left: 20px;
+    border: 1px solid rgb(237, 247, 247);
+    width: 390px;
+    height: 100px;
+    font-size: 21px;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: lighter;
+}
+.google_play{
+    float: left;
+    margin-left: 12px;
+    border: 1px solid black;
+    width: 170px;
+    height: 50px;
+    background-color: black;
+    border-radius: 12px;
+}
+.gp{
+    background-color: black;
+    margin: 6px;
+    width: 35px;
+}
+.p1{
+    margin-top: -42px;
+    margin-left: 45px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.p2{
+    margin-top: -13px;
+    margin-left: 45px;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.app_store{
+    float: left;
+    margin-left: 20px;
+    border: 1px solid black;
+    width: 170px;
+    height: 50px;
+    background-color: black;
+    border-radius: 12px;
+}
+.ap{
+    background-color: black;
+    margin: 6px;
+    width: 27px;
+}
+.p3{
+    margin-top: -42px;
+    margin-left: 45px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.p4{
+    margin-top: -13px;
+    margin-left: 45px;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.block4{
+    margin-top: 8px;
+    border: 1px solid white;
+    width: 1330px;
+    height: 250px;
+}
+.p5{
+    margin-top: 19px;
+    margin-left: 78px;
+    border: 1px solid white;
+    width: 180px;
+    height: 40px;
+    font-size: 19px;
+    padding-top: 12px;
+    color: lightslategray;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: lighter;
+}
+.hd9{
+    margin-top: -34px;
+    margin-left: 75px;
+    border: 1px solid white;
+    width: 430px;
+    height: 50px;
+    font-size: 35px;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bolder;
+}
+.line4{
+    border: 1px solid lightslategray;
+    margin-left: 70px;
+    width: 1200px;
+    margin-top: -10px;
+}
+.p6{
+    margin-left: 70px;
+    border: 1px solid white;
+    width: 690px;
+    height: 50px;
+    font-size: 18px;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: lighter;
+    color: lightslategray;
+}
+.btn-three{
+    margin-top: -86px;
+    margin-left: 1020px;
+    border: 2px solid rgb(64, 83, 189);
+    width: 159px;
+    height: 52px;
+    border-radius: 40px;
+    background-color:rgb(87, 112, 201);
+    font-size: 16px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.block5{
+    margin-top: -318px;
+    margin-left: 370px;
+    border: 1px solid rgb(247, 250, 250);
+    width: 930px;
+    height: 310px;
+    background-color: rgb(247, 250, 250);
+}
+.b1{
+    margin-top: 39px;
+    margin-left: 39px;
+    border: 1px solid rgb(247, 250, 250);
+    width: 190px;
+    height: 200px;
+    padding-top: 12px;
+    padding-left: 39px;
+    
+}
+.inside-part2{
+    font-size: 16px;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: lighter;
+}
+.hd10{
+    font-size: 27px;
+}
+.b2{
+    float: left;
+    margin-top: -214px;
+    margin-left: 289px;
+    border: 1px solid rgb(247, 250, 250);
+    width: 190px;
+    height: 200px;
+    padding-top: 12px;
+    padding-left: 39px;
+    
+}
+.inside-part3{
+    font-size: 16px;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: lighter;
+}
+.hd11{
+    font-size: 27px;
+}
+.b3{
+    float: left;
+    margin-top: -214px;
+    margin-left: 539px;
+    border: 1px solid rgb(247, 250, 250);
+    width: 190px;
+    height: 200px;
+    padding-top: 12px;
+    padding-left: 39px;
+    
+}
+.inside-part5{
+    font-size: 16px;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: lighter;
+}
+.hd12{
+    font-size: 27px;
+}
+.logo-footer{
+    margin-top: -22px;
+    margin: 120px;
+    width: 100px;
+}

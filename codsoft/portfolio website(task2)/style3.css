@@ -1,0 +1,83 @@
+.fixing{
+    position: fixed;
+    overflow: hidden;
+}
+body{
+    background-color: #F5F5DC;
+}
+.navbar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid #F5F5DC;
+    width: 1330px;
+    height: 50px;
+    background-color: #F5F5DC;
+}
+.hd{
+    margin-top: 12px;
+    margin-left: 32px;
+    font-size: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inside-part1{
+    float: left;
+    display: inline-flex;
+    margin-top: -35px;
+    margin-left: 800px;
+}
+.p1{
+    font-size: 26px;
+    margin-left: -25px;
+    text-decoration: none;
+    color: black;
+}
+.p2{
+    font-size: 26px;
+    margin-left: 36px;
+    text-decoration: none;
+    color: black;
+}
+.p3{
+    font-size: 26px;
+    margin-left: 36px;
+    text-decoration: none;
+    color: black;
+}
+.block7{
+    margin-top: 30px;
+    margin-left: 480px;
+    border: 1px solid #F9F6EE;
+    width: 350px;
+    height: 300px;
+    background-color: #F9F6EE;
+}
+.img1{
+    margin-top: 180px;
+    margin-left: 120px;
+    border: 1px solid black;
+    border-radius: 900px;
+    width: 89px;
+    height: 89px;
+}
+.hd7{
+    margin-top: -19px;
+    margin-left: 10px;
+    font-size: 24px;
+}
+.p10{
+    font-size: 17px;
+}
+.p9{
+    margin-top: -15px;
+    font-size: 19px;
+}
+.btn-1{
+    margin-top: 15px;
+    margin-left: 100px;
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 140px;
+    height: 45px;
+    font-size: 15px;
+    background-color: #FFDF00;
+    font-weight: bolder;
+}

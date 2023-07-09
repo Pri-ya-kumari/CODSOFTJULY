@@ -1,0 +1,53 @@
+.block1{
+    border: 1px solid black;
+    width: 1330px;
+    height: 1290px;
+    background-color: beige;
+}
+.img1{
+    margin-top: 72px;
+    margin-left: 270px;
+    width: 760px;
+    height: 400px;
+}
+.hd1{
+    margin-top: 50px;
+    margin-left: 270px;
+    font-size: 34px;
+}
+.p1{
+    margin-top: 30px;
+    margin-left: 270px;
+    font-size: 19px;
+}
+.block-header{
+   
+    margin-top: 50px;
+    margin-left: 755px;
+    border: 1px solid beige;
+    width: 570px;
+    height: 50px;
+    background-color:beige;
+    position: sticky;
+}
+.a1{
+    text-decoration: none;
+    color: black;
+    margin-left: 220px;
+    font-size: 19px;
+}
+.a2{
+    text-decoration: none;
+    color: black;
+    margin-left: 22px;
+    font-size: 19px;
+}
+.a3{
+    text-decoration: none;
+    color: black;
+    margin-left: 22px;
+    font-size: 19px;
+}
+.spacing{
+    margin-top: 22px;
+}

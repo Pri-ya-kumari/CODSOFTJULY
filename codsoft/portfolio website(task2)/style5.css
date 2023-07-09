@@ -1,0 +1,121 @@
+.fixing{
+    position: fixed;
+    overflow: hidden;
+}
+body{
+    background-color: #F5F5DC;
+}
+.navbar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid #F5F5DC;
+    width: 1330px;
+    height: 50px;
+    background-color: #F5F5DC;
+}
+.hd{
+    margin-top: 12px;
+    margin-left: 32px;
+    font-size: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inside-part1{
+    float: left;
+    display: inline-flex;
+    margin-top: -35px;
+    margin-left: 800px;
+}
+.p1{
+    font-size: 26px;
+    margin-left: -25px;
+    text-decoration: none;
+    color: black;
+}
+.pp2{
+    font-size: 26px;
+    margin-left: 36px;
+    text-decoration: none;
+    color: black;
+}
+.pp3{
+    font-size: 26px;
+    margin-left: 36px;
+    text-decoration: none;
+    color: black;
+}
+.inside-part2{
+    margin-top: 12px;
+    border: 1px solid #F5F5DC;
+    width: 1330px;
+    height: 800px;
+}
+.hd1{
+    margin-top: 74px;
+    margin-left: 24px;
+    font-size: 30px;
+}
+.hd2{
+    margin-left: 425px;
+    font-size: 30px;
+}
+.p2{
+    margin-top: -32px;
+    margin-left: 425px;
+    border: 1px solid white;
+    width: 850px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 12px;
+}
+.inner_details{
+    margin-top: 12px;
+    margin-left: 425px;
+    border: 1px solid white;
+    width: 850px;
+    height: 250px;
+}
+.p3{
+    margin-left: 12px;
+    font-size: 24px;
+}
+.p4{
+    margin-left: 12px;
+    font-size: 24px;
+}
+.p5{
+    margin-left: 12px;
+    font-size: 24px;
+}
+.p6{
+    margin-left: 12px;
+    font-size: 24px;
+}
+.p7{
+    margin-top: -19px;
+    margin-left: 425px;
+    border: 1px solid white;
+    width: 850px;
+    height: 60px;
+    border: 1px solid white;
+    font-size: 24px;
+    padding-left: 12px;
+}
+.p8{
+    margin-top: -19px;
+    margin-left: 425px;
+    border: 1px solid white;
+    width: 850px;
+    height: 160px;
+    border: 1px solid white;
+    font-size: 24px;
+    padding-left: 12px;
+}
+.p9{
+    margin-top: -10px;
+    margin-left: 425px;
+    border: 1px solid white;
+    width: 850px;
+    height: 60px;
+    border: 1px solid white;
+    font-size: 24px;
+    padding-left: 12px;
+}

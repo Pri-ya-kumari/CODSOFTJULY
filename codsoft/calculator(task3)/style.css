@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+}
+.heading{
+    margin-top: -80px;
+    margin-left: 30px;
+    font-size: 44px;
+    color: white;
+}
+.inside-part1{
+    margin-top: 130px;
+    margin-left: 490px;
+    border: 1px solid black;
+    width: 370px;
+    height: 450px;
+    background-color: #002244;
+}
+#display{
+    margin-top: 12px;
+    margin-left: -28px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 350px;
+    height: 50px;
+    text-align: right;
+    font-size: 19px;
+}
+.tdesgin{
+    border: 2px;
+    align-items: center;
+    background-color: white;
+}
+.colordes{
+    background-color: black;
+}
+input[type=button] {  
+    width: 60px;  
+    height: 60px;  
+    float: left;  
+    padding: 0;  
+    margin: 5px;
+    box-sizing: border-box;  
+    background: #00356B;  
+    border: none;  
+    font-size: 30px;  
+    line-height: 50px;  
+    border-radius: 50%;  
+    font-weight: 700;  
+    color: white;  
+    cursor: pointer;    
+  }  
+.input[type=text]{
+    width:170px;  
+  height: 180px;  
+  float: right;  
+  padding: 0;  
+  box-sizing: border-box;  
+  border: 2px solid red;  
+  background: none;  
+  color: red;  
+  text-align: right;  
+  font-weight: 1700;  
+  font-size: 160px;  
+  line-height: 160px;  
+  margin: 0 65px; 
+}
+.Calculator {   
+    border: -2px solid black;  
+    border-radius: 1px;  
+}  
+.inde{
+    font-size: 30px;
+}
+.btnTop {  
+    color: white;  
+    background-color: #6f6f6f;  
+    font-size: 14px;  
+    margin: auto;  
+    width: 50px;  
+    height: 25px;  
+}     

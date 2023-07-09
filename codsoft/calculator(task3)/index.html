@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="inside-part1">
+            <h1 class="heading">CALCULATOR</h1>
+            <table class="tdesign" cellpadding="20" cellspacing="20">
+                <tr>
+                    <td>
+                        <input type="text" name="Input" size="30" id="display" class="inputdesign">
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        <input type="button" value="7" onclick="getnumber(7)" class="inde">
+                        <input type="button" value="8"  onclick="getnumber(8)" class="inde">
+                        <input type="button" value="9"  onclick="getnumber(9)" class="inde">
+                        <input type="button" class ="btnTop" value=" + " onclick="getnumber('+')" class="inde"> 
+                        <br>
+                        <input type="button" value="4" onclick="getnumber(4)"  class="inde">
+                        <input type="button" value="5" onclick="getnumber(5)" class="inde">
+                        <input type="button" value="6"  onclick="getnumber(6)" class="inde">
+                        <input type="button" class ="btnTop" value=" - " onclick="getnumber('-')" class="inde"> 
+
+                        <br>
+                        <input type="button" value="1" onclick="getnumber(1)" class="inde">
+                        <input type="button" value="2" onclick="getnumber(2)" class="inde">
+                        <input type="button" value="3" onclick="getnumber(3)" class="inde">
+                        <input type="button" class ="btnTop" value=" * " onclick="getnumber('*')" class="inde"> 
+                        <br>
+                        <input type="button" value="C" onclick="getnumber('c')" class="inde">
+                        <input type="button" value="0"  onclick="getnumber(0)" class="inde">
+                        <input type="button" value=" = " onclick="getnumber('=')" class="inde">  
+                        <input type="button" value="/" onclick="getnumber('/')" class="inde">
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script src="cal.js"></script>
+    </body>
+</html>

@@ -1,0 +1,123 @@
+.block2{
+    margin-top: 12px;
+    border: 1px solid white;
+    width: 1000px;
+    height: 480px;margin-bottom: -1200px;
+}
+.img-two{
+    margin-top: 29px;
+    margin-left: 20px;
+    width: 480px;
+}
+.inside-part2{
+    float: right;
+    margin-top: -270px;
+    margin-right: -230px;
+    padding-top: 12px;
+    padding-left: 30px;
+    border: 1px solid rgb(237, 247, 247);
+    width: 470px;
+    height: 250px;
+    background-color: rgb(237, 247, 247);
+    border-radius: 40px;
+    
+}
+.hd3{
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 1px solid rgb(237, 247, 247);
+    width: 210px;
+    height: 30px;
+    font-size: 34px;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bold;
+}
+.hd4{
+    margin-top: -19px;
+    margin-left: 20px;
+    border: 1px solid rgb(237, 247, 247);
+    width: 180px;
+    height: 30px;
+    font-size: 28px;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: lighter;
+}
+.paragraph-one{
+    margin: -19px;
+    margin-left: 20px;
+    border: 1px solid rgb(237, 247, 247);
+    width: 370px;
+    height: 90px;
+    text-align: justify;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: light;
+}
+.img-three{
+    margin-top: 85px;
+    margin-left: 820px;
+    width: 410px;
+    height: 350px;
+    border-radius: 30px;
+    
+}
+.inside-part3{
+    float: right;
+    margin-top: -270px;
+    margin-right: 400px;
+    padding-top: 12px;
+    padding-left: 30px;
+    border: 1px solid rgb(237, 247, 247);
+    width: 470px;
+    height: 250px;
+    background-color: rgb(237, 247, 247);
+    border-radius: 40px;
+    
+}
+.hd5{
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 1px solid rgb(237, 247, 247);
+    width: 210px;
+    height: 30px;
+    font-size: 34px;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bold;
+}
+.hd6{
+    margin-top: -19px;
+    margin-left: 20px;
+    border: 1px solid rgb(237, 247, 247);
+    width: 180px;
+    height: 30px;
+    font-size: 28px;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: lighter;
+}
+.paragraph-two{
+    margin: -19px;
+    margin-left: 20px;
+    border: 1px solid rgb(237, 247, 247);
+    width: 330px;
+    height: 90px;
+    text-align: justify;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: light;
+}
